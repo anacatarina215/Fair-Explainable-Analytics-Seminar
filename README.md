@@ -6,3 +6,5 @@ First, was executed an analysis of the data set (in the folder data - adult_trai
 Secondly, some values of the test set were randomly removed (in the folder data_removed) and the MissForest was trained in the train set. Then, the values removed were imputed by the MissForest trained and finally, was evaluated that imputation, comparing the original values with the imputed values. This was done in 3 different cases in the codes "MissForestImputation_caseX.ipynb".
 
 Thirdly, our supervisor did the imputation with the GReaT approach from the test sets in the folder data_removed and sent the test set with the imputed values to us (in the folder data_great_impute) to then be done the evaluation. This was done in the codes "GReaT_code_caseX.ipynb".
+
+Note that for this, was first created an environment with python=3.10, numpy, matplotlib, scipy, scikit-learn, pandas and jupyterlab. The version for the scikit-learn had to be v1.0.2 in order to the MissForest package works (here installed in Data_Analysis.ipynb).  
